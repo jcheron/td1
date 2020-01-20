@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class MainController {
 	@GetMapping("")
 	public @ResponseBody String index() {
-		return "Hello world";
+		return "Hello world!";
 	}
 }

@@ -21,7 +21,7 @@ class Td1ApplicationTests {
 
 	@Test
 	void loadHello() throws Exception {
-		this.mvc.perform(get("/")).andExpect(content().string("Hello world"));
+		this.mvc.perform(get("/")).andExpect(content().string("Hello world!"));
 	}
 
 }
