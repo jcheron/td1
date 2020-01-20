@@ -1,4 +1,6 @@
 language: java
+before_script:
+  - chmod +x mvnw
 script:
-- ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-- ./mvnw test -B
+  - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+  - ./mvnw test -B
